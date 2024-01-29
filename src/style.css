@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Acme', 'Pacifico', cursive, monospace, sans-serif, serif;
+  color: rgb(100, 100, 100);
+  overflow: hidden;
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('../assets/bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  padding-top: 230px;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.board {
+  align-items: flex-start;
+  gap: 100px;
+  padding: 5px;
+  margin: 5px;
+  width: 90%;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.showscore {
+  width: 40%;
+}
+
+.scorehead {
+  justify-content: space-between;
+}
+
+.scorelist ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.scorelist ul li {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 25px;
+  margin: 7px 0;
+  padding: 0 3px;
+}
+
+.shade-m {
+  background-color: rgb(85, 85, 85);
+  color: white;
+}
+
+.shade {
+  background-color: rgb(151, 150, 150);
+  color: white;
+}
+
+.scorelist span {
+  display: inline-block;
+  height: 100%;
+}
+
+.pname {
+  width: 80%;
+}
+
+.addscore {
+  width: 40%;
+}
+
+.form {
+  flex-direction: column;
+}
+
+.form input {
+  width: 96%;
+  height: 25px;
+  margin: 5px;
+  border-style: none;
+  border-radius: 3px;
+  font-family: 'Acme', 'Pacifico', cursive, monospace, sans-serif, serif;
+}
+
+button {
+  height: 25px;
+  width: 57px;
+  padding: 0 2px;
+  border-radius: 5px;
+  color: #1877f2;
+  background-color: white;
+  border: 2px solid rgb(205, 205, 205);
+  font-family: 'Acme', 'Pacifico', cursive, monospace, sans-serif, serif;
+}
+
+button:hover {
+  transform: scale(1.11);
+  color: white;
+  background-color: #1877f2;
+  border: 2px solid #1877f2;
+}
+
+.form button {
+  margin: 6px 7px 5px 78.5%;
+}
